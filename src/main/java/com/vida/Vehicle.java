@@ -14,11 +14,11 @@ public class Vehicle {
         this.brand = brand;
     }
 
-    public Date getModelYear() {
+    public String getModelYear() {
         return modelYear;
     }
 
-    public void setModelYear(Date year) {
+    public void setModelYear(String year) {
         this.modelYear = year;
     }
 
@@ -60,7 +60,7 @@ public class Vehicle {
     private Long id;
 
     private String brand;
-    private Date modelYear;
+    private String modelYear;
     private String model;
     private String engineCapacity;
     private String color;
@@ -71,7 +71,7 @@ public class Vehicle {
         return id;
     }
 
-    public Vehicle(Long id, String brand, Date modelYear, String model, String engineCapacity, String color, String plateNumber) {
+    public Vehicle(Long id, String brand, String modelYear, String model, String engineCapacity, String color, String plateNumber) {
         this.id = id;
         this.brand = brand;
         this.modelYear = modelYear;
