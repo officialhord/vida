@@ -1,13 +1,19 @@
 package com.vida.Messenger;
 
-import org.slf4j.Logger;
+import com.vida.Vehicle;
+import org.hibernate.service.spi.ServiceException;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.logging.LogLevel;
+
 
 public class ErrorMessage {
 
-    Logger logger;
+    private String message = null;
 
-    public void invalidDate() {
-        logger.error("Invalid date entered, kindly review information and save again");
+    public void invalidDate(String date) {
 
+        //This should return an Invalid year entered message as the webservice response
+        message = "Invalid year entered... " + date;
+      
     }
 }
