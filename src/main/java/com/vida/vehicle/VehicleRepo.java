@@ -1,4 +1,4 @@
-package com.vida;
+package com.vida.vehicle;
 
 import org.springframework.data.repository.CrudRepository;
 

@@ -1,4 +1,4 @@
-package com.vida;
+package com.vida.vehicle;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

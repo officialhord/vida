@@ -1,4 +1,4 @@
-package com.vida;
+package com.vida.vehicle;
 
 import com.vida.ErrorHandling.ValidityCheck;
 import com.vida.Messenger.ErrorMessage;

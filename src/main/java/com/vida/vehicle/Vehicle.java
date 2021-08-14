@@ -1,4 +1,4 @@
-package com.vida;
+package com.vida.vehicle;
 
 import javax.persistence.*;
 import java.util.Date;
